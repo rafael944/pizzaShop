@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 500px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+}
+
+.header {
+  width: 500px;
+  height: 50px;
+  border: 0.5px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header input {
+  outline: none;
+  border: none;
+  padding: 5px;
+}
+.header button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.list {
+  width: 500px;
+  height: auto;
+  border: 0.5px solid;
+}
+
+.list ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
